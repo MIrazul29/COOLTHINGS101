@@ -122,17 +122,17 @@ a{
     align-items: center;
     justify-content: space-between;
     margin: 4px 4px;
-    background-color: rgb(214, 203, 203);
     padding: 10px 10px;
-   border :1px solid   rgb(214, 203, 203);
-   border-radius: 20px;
    margin-bottom: 20px;
    margin-top: 20px;
+   color: black;
+}
+.productbar a{
+    text-decoration: none;
+    color: black;
 }
 .productbar div a:hover{
     background-color: rgb(167, 109, 109);
-    padding: 4px 4px;
-    border-radius: 10px;
 }
 .product-picture{
     display: grid;
@@ -166,7 +166,7 @@ a{
 
 .team-container{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.75fr 1fr;
     grid-template-rows: 1fr;
 }
 .team-content-right-one{
@@ -181,11 +181,12 @@ a{
     margin-top: 10px;
 }
 .team-leader img{
-    height: 350px;
-    width: 350px;
+    height: 383px;
+    width: 293px;
     display: block;
-    margin: 0 auto;
-    padding-top: 30px;   
+    /* margin: 0 auto; */
+    padding-top: 30px;  
+    margin-left: 40px;
 }
 .team-content-right-two{
     display: grid;
@@ -194,11 +195,11 @@ a{
 }
 
 .team-content-right-two img{
-    height: 250px;
-    width: 220px;
+    height: 265px;
+    width: 255px;
     display: block;
-    margin:  0 auto;
-    padding-top: 40px;    
+    margin: 0 auto;
+    padding-top: 40px; 
 }
 
 /* feedbacj-section */
@@ -225,8 +226,8 @@ a{
 .feedback-box input{
     color: black;
     background-color: white;
-    padding: 12px 10px;
-    margin: 10px 10px;
+    padding: 11px 26px;
+    margin: 0px 0px;
 }
 .feedback-box button{
     background-color: red;
@@ -254,7 +255,7 @@ a{
 .address-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1.5fr 0.5fr;
+    grid-template-rows: 1fr 4.5fr 1fr;
     grid-template-areas: "name mail"
     "massage massage"
     " button button";
@@ -278,7 +279,7 @@ a{
 .bigbox{
     grid-area: massage;
     text-align: center;
-    height: 100px;
+    height: 150px;
    
 }
 .btn{
